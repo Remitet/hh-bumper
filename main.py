@@ -14,7 +14,7 @@ PASSWORD = ''
 
 
 # Путь к хромдрайверу. (для безоконного режима добавить options=options после пути к драйверу)
-# driver = webdriver.Chrome(executable_path='')
+driver = webdriver.Chrome(executable_path='')
 
 
 def Login():
