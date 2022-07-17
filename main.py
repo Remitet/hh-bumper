@@ -8,13 +8,13 @@ LOGIN = ''
 PASSWORD = ''
 
 # Раскоментировать для безоконного режима
-#options = webdriver.ChromeOptions()
-#options.headless = True
-#options.add_argument("--no-sandbox")
+# options = webdriver.ChromeOptions()
+# options.headless = True
+# options.add_argument("--no-sandbox")
 
 
 # Путь к хромдрайверу. (для безоконного режима добавить options=options после пути к драйверу)
-driver = webdriver.Chrome(executable_path='')
+# driver = webdriver.Chrome(executable_path='')
 
 
 def Login():
